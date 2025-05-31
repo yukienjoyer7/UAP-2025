@@ -6,7 +6,7 @@ import uap.models.*;
 
 public class KalkulatorPabrik {
     public static void main(String[] args) {
-        final String SEPARATOR = "=".repeat(45);
+        final String SEPARATOR = "=============================================";
         Scanner scan = new Scanner(System.in);
 
         System.out.println(SEPARATOR);
