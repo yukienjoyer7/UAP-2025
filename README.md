@@ -30,16 +30,16 @@ Proyek ini diorganisir ke dalam beberapa package sesuai dengan fungsinya:
 ```text
 uap/
 ├── bases/
-│   └── Shape.java             # Kelas abstrak untuk bentuk dasar
+│   └── Shape.java                  # Kelas abstrak untuk bentuk dasar
 ├── interfaces/
-│   ├── MassCalculatable.java  # Interface untuk objek yang massanya dapat dihitung
-│   ├── MassConverter.java     # Interface untuk konversi satuan massa
-│   ├── PiRequired.java        # Interface yang menyediakan konstanta PI
+│   ├── MassCalculatable.java       # Interface untuk objek yang massanya dapat dihitung
+│   ├── MassConverter.java          # Interface untuk konversi satuan massa
+│   ├── PiRequired.java             # Interface yang menyediakan konstanta PI
 │   ├── ShippingCostCalculator.java # Interface untuk kalkulasi biaya kirim
-│   └── ThreeDimensional.java  # Interface untuk objek tiga dimensi (volume & luas permukaan)
+│   └── ThreeDimensional.java       # Interface untuk objek tiga dimensi (volume & luas permukaan)
 ├── mains/
-│   └── KalkulatorPabrik.java  # Kelas utama (Main class) untuk menjalankan aplikasi
+│   └── KalkulatorPabrik.java       # Kelas utama (Main class) untuk menjalankan aplikasi
 └── models/
-    ├── Sphere.java            # Model untuk cetakan berbentuk bola (donat tanpa lubang)
-    └── Torus.java             # Model untuk cetakan berbentuk torus (donat dengan lubang)
+    ├── Sphere.java                 # Model untuk cetakan berbentuk bola (donat tanpa lubang)
+    └── Torus.java                  # Model untuk cetakan berbentuk torus (donat dengan lubang)
 
