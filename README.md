@@ -19,7 +19,6 @@ Untuk setiap model, kalkulator dapat menghitung:
 * **Ketebalan Bahan Cetakan**: `0.5 cm`
 * **Densitas Bahan (Stainless Steel 304)**: `8 g/cm³`
 * **Harga Patokan Biaya Kirim**: `Rp 2000 per kg`
-* **Rumus Volume Material Cetakan**: Dihitung sebagai `Luas Permukaan * Ketebalan`
 * **Nilai PI (π)**: `22/7`
 
 ## Struktur Proyek
