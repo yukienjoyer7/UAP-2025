@@ -36,6 +36,6 @@ public class KalkulatorPabrik {
         System.out.println(SEPARATOR);
         donatTanpaLubang.printInfo();
         System.out.println(SEPARATOR);
-
+        scan.close();
     }
 }

@@ -72,10 +72,10 @@ public class Torus extends Shape implements ThreeDimensional, MassCalculatable, 
         double massInKg = gramToKilogram(massInGram);
         double shippingCost = calculateCost(massInKg);
 
-        System.out.printf("%-15s: %.2f cm^3\n","Volume", volume);
-        System.out.printf("%-15s: %.2f cm^2\n","Luas permukaan", surfaceArea);
-        System.out.printf("%-15s: %.2f gr\n","Massa", massInGram);
-        System.out.printf("%-15s: %.4f kg\n","Massa dalam kg", massInKg);
+        System.out.printf("%-15s: %.2f\n","Volume", volume);
+        System.out.printf("%-15s: %.2f\n","Luas permukaan", surfaceArea);
+        System.out.printf("%-15s: %.2f\n","Massa", massInGram);
+        System.out.printf("%-15s: %.2f\n","Massa dalam kg", massInKg);
         System.out.printf("%-15s: Rp%.2f\n","Biaya kirim", shippingCost);
     }
 }
