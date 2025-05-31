@@ -16,7 +16,6 @@ Untuk setiap model, kalkulator dapat menghitung:
 * **Biaya Kirim**: Estimasi biaya pengiriman berdasarkan massa cetakan dalam kilogram.
 
 ## Detail Implementasi Konstanta
-* **Bahan Cetakan**: Stainless Steel 304
 * **Ketebalan Bahan Cetakan**: `0.5 cm`
 * **Densitas Bahan (Stainless Steel 304)**: `8 g/cm³`
 * **Harga Patokan Biaya Kirim**: `Rp 2000 per kg`
