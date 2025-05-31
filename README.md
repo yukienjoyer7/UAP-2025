@@ -27,6 +27,7 @@ Untuk setiap model, kalkulator dapat menghitung:
 
 Proyek ini diorganisir ke dalam beberapa package sesuai dengan fungsinya:
 
+```text
 uap/
 ├── bases/
 │   └── Shape.java             # Kelas abstrak untuk bentuk dasar
@@ -39,6 +40,6 @@ uap/
 ├── mains/
 │   └── KalkulatorPabrik.java  # Kelas utama (Main class) untuk menjalankan aplikasi
 └── models/
-├── Sphere.java            # Model untuk cetakan berbentuk bola (donat tanpa lubang)
-└── Torus.java             # Model untuk cetakan berbentuk torus (donat dengan lubang)
+    ├── Sphere.java            # Model untuk cetakan berbentuk bola (donat tanpa lubang)
+    └── Torus.java             # Model untuk cetakan berbentuk torus (donat dengan lubang)
 
