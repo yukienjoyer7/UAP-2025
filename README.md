@@ -15,12 +15,6 @@ Untuk setiap model, kalkulator dapat menghitung:
 * **Massa Cetakan dalam Kilogram**: Konversi massa cetakan ke kilogram (kg).
 * **Biaya Kirim**: Estimasi biaya pengiriman berdasarkan massa cetakan dalam kilogram.
 
-## Detail Implementasi Konstanta
-* **Ketebalan Bahan Cetakan**: `0.5 cm`
-* **Densitas Bahan (Stainless Steel 304)**: `8 g/cm³`
-* **Harga Patokan Biaya Kirim**: `Rp 2000 per kg`
-* **Nilai PI (π)**: `22/7`
-
 ## Struktur Proyek
 
 Proyek ini diorganisir ke dalam beberapa package sesuai dengan fungsinya:
