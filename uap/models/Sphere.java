@@ -45,26 +45,25 @@ public class Sphere extends Shape implements ThreeDimensional, MassCalculatable,
     }
 
     @Override
-    public double gramToKilogram(double massInGram) {
-        return massInGram / DENOMINATOR;
+    public double gramToKilogram() {
+        return getMass() / DENOMINATOR;
     }
 
     @Override
-    public double calculateCost(double massInKilogram) {
-        return Math.ceil(massInKilogram) * PRICE_PER_KG;
+    public double calculateCost() {
+        return Math.ceil(gramToKilogram()) * PRICE_PER_KG;
+
     }
 
     public void printInfo(){
         double volume = getVolume();
         double surfaceArea = getSurfaceArea();
         double massInGram = getMass();
-        double massInKg = gramToKilogram(massInGram);
-        double shippingCost = calculateCost(massInKg);
+
 
         System.out.printf("%-15s: %.2f\n","Volume", volume);
         System.out.printf("%-15s: %.2f\n","Luas permukaan", surfaceArea);
         System.out.printf("%-15s: %.2f\n","Massa", massInGram);
-        System.out.printf("%-15s: %.2f\n","Massa dalam kg", massInKg);
-        System.out.printf("%-15s: Rp%.2f\n","Biaya kirim", shippingCost);
+
     }
 }
