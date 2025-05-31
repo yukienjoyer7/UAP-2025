@@ -3,8 +3,7 @@ package uap.bases;
 public abstract class Shape {
     private String name;
 
-    public Shape(String name) {
-        this.name = name;
+    public Shape() {
     }
 
     public void setName(String inputName) {

@@ -7,12 +7,10 @@ public class Sphere extends Shape implements ThreeDimensional, MassCalculatable,
     private double radius;
 
     public Sphere(){
-        super("Sphere");
         this.radius = 1.0;
     }
 
     public Sphere(double radius){
-        super("Sphere");
         this.radius = radius;
     }
 

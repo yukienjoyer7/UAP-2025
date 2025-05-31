@@ -7,13 +7,11 @@ public class Torus extends Shape implements ThreeDimensional, MassCalculatable, 
     private double minorRadius; // r
 
     public Torus() {
-        super("Torus");
         this.majorRadius = 1;
         this.minorRadius = 0.5;
     }
 
     public Torus(double majorRadius, double minorRadius) {
-        super("Torus");
         this.majorRadius = majorRadius;
         this.minorRadius = minorRadius;
     }
